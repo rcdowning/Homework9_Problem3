@@ -28,4 +28,15 @@ int main() {
       {'F', 'F', 'F', 'F', 'F'}, {'T', 'T', 'F', 'T', 'F'}};
 
   // compare each row to the answer key, add 5 if indexes equal
+
+  int grade = 0;
+
+  for (int r = 1; r < N_ROWS + 1; r++) {
+      tests[r][N_COLUMNS];
+    for (int c = 0; c < N_COLUMNS; c++) {
+      if (tests[N_ROWS][c] == answers[c])
+        grade = grade + 5;
+    }
+    cout << "Test number " << r << " has a grade of " << grade << "." << endl;
+  }
 }
